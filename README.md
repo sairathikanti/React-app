@@ -1,4 +1,4 @@
-# React Testing Library Demo Application
+# React VM Demo Application
 
 Demo code, prepared for React Track HU 2020, to practice writing unit tests using React Testing Library
 
