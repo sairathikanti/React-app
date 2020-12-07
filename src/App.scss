@@ -1,0 +1,150 @@
+.tab-list {  border-bottom: 1px solid #ccc;
+  padding-left: 10;
+}
+
+.tab-list-item {
+  display: inline-block;
+  list-style: none;
+  margin-bottom: -1px;
+  padding: 0.5rem 0.75rem;
+  border: solid #ccc;
+  width: 220px;
+  height: 25px;
+}
+
+.toggle-button{
+  
+  float: right;
+  padding-left: 350px;
+  align-items: center;
+  margin-top: 1rem;
+  
+}
+.submit{
+  color: blue;
+  margin-left: 2rem;
+  margin-top: 1rem;;
+}
+
+
+.card-item{
+  display: inline-block;
+  list-style: none;
+  margin-bottom: -1px;
+  margin-top: 10px;
+  padding: 0.5rem 0.75rem;
+  border: solid #ccc;
+  width: fit-content;
+  height: fit-content;
+}
+
+.column {
+  float: left;
+  width: 700px;
+  padding: 5px;
+}
+
+.column1 {
+  float: left;
+  width: 700px;
+  padding: 25px;
+  margin-left: 380px;
+}
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container{
+width: fit-content;
+padding-left: 70px;
+padding-top: 50px;
+}
+
+.header{
+  margin-left: 30px;
+  }
+  
+  .dropdown{
+    margin-left: 30px;
+    border: solid #ccc;
+    background-color: #ccc;
+    width: 140px;
+    height: 30px;
+
+    }
+
+.image-list-item {
+  display: inline-block;
+  list-style: none;
+  margin-bottom: -1px;
+  padding: 0.5rem 0.75rem;
+  border: solid #ccc;
+  width: 220px;
+  height: 25px;
+}
+
+
+.tab-list-active {
+  background-color: blue;
+  border: solid #ccc;
+  border-width: 1px 1px 0 1px;
+}
+.BackButton{
+  margin: 500px 10px 10px 10px;
+  position: center;
+  width: 6rem;
+  height: 2rem;
+  background-color:black;
+  color:white;
+}
+.ProceedButton{
+  margin: 500px 10px 10px 10px;
+  position: center;
+  width: 6rem;
+  height: 2rem;
+  background-color: blue;
+  color:white;
+ 
+}
+.buttonDiv{
+margin-left: 700px;
+}
+
+
+.column-network {
+  float: left;
+  margin-left:3rem;
+ /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row-network:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.network-dropdown{
+ 
+  border: solid #ccc;
+  background-color: #ccc;
+  width: 100px;
+  height: 30px;
+
+  }
+
+  .network-container{
+    margin-left: 40PX;
+    border: groove;
+    width: fit-content;
+    padding-right: 20px;
+  }
+  .network-container-two{
+   margin-top: 15px;
+  }
+  .top-container{
+    padding-right: 100px;
+  }
